@@ -1,0 +1,86 @@
+.completed-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #bfe4ca;
+}
+.completed-hero {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #bfe4ca;
+}
+.completed-container1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.completed-text {
+  font-size: 3rem;
+}
+.completed-text1 {
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  padding-left: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+}
+.completed-button {
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.completed-button:hover {
+  transform: scale(1.02);
+}
+@media(max-width: 991px) {
+  .completed-hero {
+    flex-direction: column;
+  }
+  .completed-container1 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .completed-text {
+    text-align: center;
+  }
+  .completed-text1 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .completed-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .completed-text1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .completed-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .completed-container1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .completed-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+}

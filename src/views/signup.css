@@ -1,0 +1,111 @@
+.signup-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #bfe4ca;
+}
+.signup-name {
+  top: 199px;
+  left: 469px;
+  z-index: 100;
+  position: absolute;
+}
+.signup-company {
+  top: 248px;
+  left: 469px;
+  position: absolute;
+}
+.signup-contact-email {
+  top: 295px;
+  left: 469px;
+  position: absolute;
+}
+.signup-contact-phone-number {
+  top: 343px;
+  left: 468px;
+  position: absolute;
+}
+.signup-o365-admin-email {
+  top: 390px;
+  left: 468px;
+  position: absolute;
+}
+.signup-text {
+  top: 208px;
+  left: 411px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+}
+.signup-text1 {
+  top: 157px;
+  left: 412px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+}
+.signup-text2 {
+  top: 256px;
+  left: 384px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+}
+.signup-text3 {
+  top: 305px;
+  left: 351px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+}
+.signup-text4 {
+  top: 353px;
+  left: 344px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+}
+.signup-text5 {
+  top: 399px;
+  left: 317px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+}
+.signup-select {
+  top: 155px;
+  left: 469px;
+  position: absolute;
+}
+.signup-text6 {
+  top: 36px;
+  left: 475px;
+  position: absolute;
+  align-self: flex-end;
+}
+.signup-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+}
+.signup-icon {
+  top: 188px;
+  left: 824px;
+  width: var(--dl-size-size-xlarge);
+  height: var(--dl-size-size-xxlarge);
+  position: absolute;
+}
+.signup-button {
+  top: 464px;
+  left: 560px;
+  position: absolute;
+}
